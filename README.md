@@ -32,9 +32,11 @@ Fi-Svc-1 is a basic financial insights service that allows users to input their 
   - cd fi-svc-1
 
 # Install dependencies for frontend:
+  - Again navigate to the frontend directory (cd fi-svc-1-frontend) and run below command
   - npm install
 
 # Install dependencies for backend:
+  - Again navigate to the backend directory (cd fi-svc-1-backend) and run below command
  - pip install -r requirements.txt
  
 # Configuration
