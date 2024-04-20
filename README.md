@@ -28,32 +28,32 @@ Fi-Svc-1 is a basic financial insights service that allows users to input their 
 1. Clone the repository:
   create a directory "fi-svc-1" and clone the repo inside that directory by running the commans git clone in a terminal
    
-Navigate to the project directory:
+# Navigate to the project directory:
   - cd fi-svc-1
 
-Install dependencies for frontend:
+# Install dependencies for frontend:
   - npm install
 
-Install dependencies for backend:
+# Install dependencies for backend:
  - pip install -r requirements.txt
  
-Configuration
+# Configuration
   - Set up MongoDB:
 If using a local MongoDB instance, make sure it's running on your machine.
 
-Configure backend:
+# Configure backend:
   -Modify the backend code to use the appropriate MongoDB connection settings.
 
-Usage
-Start the frontend:
+# Usage
+- Start the frontend:
   -npm start
   
-Start the backend:
+- Start the backend:
   -python app.py
 
 
 Access the application in your web browser at http://localhost:3000.
 
-API Endpoints
-POST /api/transactions: Add a new transaction.
-GET /api/insights: Get insights into spending habits.
+# API Endpoints
+  - POST /api/transactions: Add a new transaction.
+  - GET /api/insights: Get insights into spending habits.
